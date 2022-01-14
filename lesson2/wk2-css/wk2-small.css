@@ -1,0 +1,44 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Balsamiq Sans", cursive;
+}
+header,
+main,
+footer {
+  margin: 1.25rem auto;
+  max-width: 600px;
+}
+header,
+footer {
+  background-color: #3b6368;
+  color: #ffff;
+  text-align: center;
+  box-shadow: 10px 10px 50px grey;
+}
+header {
+  padding: 1.5rem;
+  display: block;
+  align-items: center;
+}
+h1 {
+  font-size: 1.3rem;
+  text-shadow: 5px 5px 5px #292929;
+}
+h2 {
+  text-shadow: 5px 5px 5px gray;
+  font-size: 1rem;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+main img {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  padding: 1rem;
+}
