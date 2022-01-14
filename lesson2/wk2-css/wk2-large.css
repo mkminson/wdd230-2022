@@ -1,2 +1,16 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 620px) {
+  header,
+  main,
+  footer {
+    margin: 1.25rem auto;
+    max-width: 900px;
+  }
+  main {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .class3 {
+    min-width: none;
+  }
 }
