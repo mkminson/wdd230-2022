@@ -2,7 +2,7 @@
   header,
   main,
   footer {
-    margin: 1.25rem auto;
+    /*margin: 1.25rem auto;*/
     max-width: 900px;
   }
   main {
@@ -12,5 +12,9 @@
   }
   .class3 {
     min-width: none;
+    grid-column: 3/4;
+  }
+  .class3 img {
+    width: 350px;
   }
 }
