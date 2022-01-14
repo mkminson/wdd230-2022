@@ -5,9 +5,10 @@ body {
 }
 header,
 main,
+section,
 footer {
   margin: 1.25rem auto;
-  max-width: 600px;
+  max-width: 300px;
 }
 header,
 footer {
@@ -29,12 +30,26 @@ h2 {
   text-shadow: 5px 5px 5px gray;
   font-size: 1rem;
 }
+h3 {
+  background-color: #3b6368;
+  color: #ffff;
+  padding: 0.75rem;
+}
+.class1,
+.class2,
+.class3 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  border-radius: 10px 10px 0px 0px;
+}
 main {
   display: grid;
   grid-template-columns: 1fr;
 }
-main img {
+img {
   width: 200px;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
